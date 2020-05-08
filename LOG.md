@@ -2,9 +2,15 @@
 
 ### With this log I intend to write down my progress as I advance thru the FreeCodeCamp curriculum
 
+-------------------------------------------------------------------
+
+*Day 2 / May 8, 2020*
+I did form, input and regular button tags. Next time will continue with radio buttons at Basic HTML and HTML5: Create a Set of Radio Buttons 
+
+-------------------------------------------------------------------
 
 *Day 1 / May 7, 2020*
-I continued to practice with iamges and how to link them in my html file, depending on the structure of the folders for the project. So I am still at the Basic HTML and HTML 5: Add Images to Your Website challenge
+I continued to practice with images and how to link them in my html file, depending on the structure of the folders for the project. So I am still at the Basic HTML and HTML 5: Add Images to Your Website challenge
 
 -------------------------------------------------------------------
 

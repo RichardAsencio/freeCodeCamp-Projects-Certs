@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CatPhotoApp</title>
+</head>
+<body>
+    <main>
+        
+        <h1>Here I will practice with webforms, to input text or any other data.</h1>
+        
+        <div> 
+            <p>1- This following box is called an input tag. This one has an attribute called: text.</p>
+            <input type="text">
+        </div>
+
+        <div>
+            <p>2- Here we add another attribute to the input tag. We already have attribute type="text", so that it accepts just text; now we can add attribute="placeholder". This attribute will allow us to write text at the input box that suggests what's been asked to input.</p>
+            <input type="text" placeholder="enter you name">
+        </div>
+
+        <div>
+            <p>3- The "form" element will allow me to actually submit data to a server. I can do this by specifying and action on this "form" element. Here I nest the input tag within this form element.</p>
+            <form action="url-where-I-will-submit-the-data-collected-thru-this-forms">
+                <input type="number" placeholder="enter your ss number">
+            </form>
+        </div>
+
+        <div>
+            <p>4- We can add a submit button to a form. This button tag was created to allow a user to click this button, which then will send the data captured by the form field and will send it to the URL specified in the form's action tag.</p>
+            <p>These two buttons have no use except for that is visible as an icon with text on it</p>
+            <button>Send</button>    
+            <br>
+            <button type="submit">this button submits the form</button>
+        </div>
+
+        <div>
+            <p>5- Here the "form" tag is created, and nested within it will be the "input" tag, and next to this tag will be the "button" tag. It looks like this.</p>
+            <form action="server-url">
+                <input type="text" placeholder="enter info">
+                <button type="submit">Click to Submit Info</button>
+            </form>
+        </div>
+
+        <div>
+            <p>6- I can also require that the field of the form be filled before being sent. For this I added "required" before closing the "input" self closing tag. Now go ahead and try clicking without entering nothing to see what comes out. Try entering text and clinking submit !!!</p>
+            <form action="server-url">
+                <input type="text" placeholder="enter info" required>
+                <button type="submit">Click to Submit Info</button>
+            </form>
+            <p>Remember that the structure of a "whole and complete working" form is: a "form" tag that has an attribute that specifies the URL where that data captured will be sent, and within that tag you need two tags, the first one is the "input" tag and the second one is the "button" tag. As for the input tag, this should have three attributes: "type" that will specify the data that will be accepted, "placeholder" which is the text that will display inside the input field to guide the user as to what info to type in, and the third attribute being "required" so that the form can not be submitted if it does not contains info on it. The "button" tag will then have an attribute "type" to be submit, this specifies that the info captured by the form will be "submitted" to the specified URL at the form tag. ALso within the button tags I include the text that will indetifiy the button per se, meaning text over the button.</p>
+        </div>
+
+        
+
+    </main>
+     
+</body>
+</html>
